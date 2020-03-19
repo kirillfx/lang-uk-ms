@@ -15,10 +15,6 @@ services:
     image: chaliy/ner-ms:uk
     ports:
       - '8080'
-  ner-ms-en:
-    image: chaliy/ner-ms:en
-    ports:
-      - '8080'
   tokenize-ms:
     image: chaliy/tokenize-ms
     ports:
